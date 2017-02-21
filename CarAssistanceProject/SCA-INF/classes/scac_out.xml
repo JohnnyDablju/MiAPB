@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Faults>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>/processes/CarAssistanceProcess.bpmn</file>
+      <name>/processes/CarAssistanceProcess.bpmn</name>
+      <fix/>
+      <msg>Node 'Receive information about help' has no implementation defined</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>/processes/CarAssistanceProcess.bpmn</file>
+      <name>/processes/CarAssistanceProcess.bpmn</name>
+      <fix/>
+      <msg>Node 'UserTask' has no implementation defined</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>/processes/CarAssistanceProcess.bpmn</file>
+      <name>/processes/CarAssistanceProcess.bpmn</name>
+      <fix/>
+      <msg>Error not defined in Event 'No entitlement'</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>/processes/IncidentReported.bpmn</file>
+      <name>/processes/IncidentReported.bpmn</name>
+      <fix/>
+      <msg>Node 'Review customer incident' has no implementation defined</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>/processes/IncidentReported.bpmn</file>
+      <name>/processes/IncidentReported.bpmn</name>
+      <fix/>
+      <msg>Error not defined in Event 'No entitlement'</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>/processes/IncidentReported.bpmn</file>
+      <name>/processes/IncidentReported.bpmn</name>
+      <fix/>
+      <msg>Exclusive Gateway 'Has entititlement?' has more than one default outgoing sequence flow.</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>/processes/IncidentReported.bpmn</file>
+      <name>/processes/IncidentReported.bpmn</name>
+      <fix/>
+      <msg>Exclusive Gateway 'Serious problem?' has more than one default outgoing sequence flow.</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>CarIncidentHappened.task</file>
+      <name>CarIncidentHappened.task</name>
+      <fix/>
+      <msg>Task title not specified</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>CarIncidentHappened.task</file>
+      <name>CarIncidentHappened.task</name>
+      <fix/>
+      <msg>Error assignee not specified</msg>
+   </Fault>
+</Faults>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?oracleBPM version="11.1.1.7.0.0.8" fileRevision="20120217"?>
+<processDocumentation xmlns="http://xmlns.oracle.com/bpm/taskMetadataService/processDocumentation">
+    <component name="IncidentReported">
+        <topicDocumentations>
+            <topicDocumentation name="IncidentReported">
+                <labels>
+                    <label locale="en">Incident handling</label>
+                </labels>
+                <descriptions>
+                    <description locale="en">Incident handling</description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ACT18611318021854">
+                <labels>
+                    <label locale="en">Review customer incident</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ACT1861135577666">
+                <labels>
+                    <label locale="en">Send carriage</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ACT18611363353275">
+                <labels>
+                    <label locale="en">Send mobile help</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="EVT18611289244885">
+                <labels>
+                    <label locale="en">Start</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="EVT18611289244836">
+                <labels>
+                    <label locale="en">End</label>
+                </labels>
+            </topicDocumentation>
+            <topicDocumentation name="EVT18611328490867">
+                <labels>
+                    <label locale="en">No entitlement</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="GTW18611299935666">
+                <labels>
+                    <label locale="en">Has entititlement?</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="GTW1861129993562">
+                <labels>
+                    <label locale="en">Serious problem?</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="GTW18611374715246">
+                <labels>
+                    <label locale="en">ExclusiveGateway</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf88"/>
+            <topicDocumentation name="sf90"/>
+            <topicDocumentation name="sf92">
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf95">
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="sf97"/>
+            <topicDocumentation name="sf100"/>
+            <topicDocumentation name="sf103"/>
+            <topicDocumentation name="sf105"/>
+            <topicDocumentation name="sf107"/>
+        </topicDocumentations>
+    </component>
+</processDocumentation>
