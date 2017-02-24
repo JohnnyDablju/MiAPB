@@ -9,8 +9,8 @@
 <xs:schema targetNamespace="http://xmlns.oracle.com/bpm/bpmobject/BusinessObjects/AssistancePromise" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema"  xmlns="http://xmlns.oracle.com/bpm/bpmobject/BusinessObjects/AssistancePromise"  xmlns:bpmo="http://xmlns.oracle.com/bpm/bpmobject/" >
     <xs:complexType name="AssistancePromiseType">
         <xs:sequence>
-            <xs:element name="message" nillable="true" type="xs:string"/>
-            <xs:element name="time" nillable="true" type="xs:string"/>
+            <xs:element name="message" default="" type="xs:string"/>
+            <xs:element name="time" default="" type="xs:string"/>
         </xs:sequence>
     </xs:complexType>
     <xs:element name="AssistancePromise" type="AssistancePromiseType"/>

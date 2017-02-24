@@ -46,7 +46,7 @@
       <allowInitiatorEditParticipants>false</allowInitiatorEditParticipants>
       <allowParticipantsEditParticipants>false</allowParticipantsEditParticipants>
       <globalCreationTask>true</globalCreationTask>
-      <taskFlowFileLocation>file:/media/sf_VirtualBox/miapb/CarAssistanceUI/public_html/WEB-INF/CarIncidentHappened_TaskFlow.xml</taskFlowFileLocation>
+      <taskFlowFileLocation>file:/media/sf_VirtualBox/miapb/CarIncidentHappenedUI/public_html/WEB-INF/CarIncidentHappened_TaskFlow.xml</taskFlowFileLocation>
       <enableAutoClaim>true</enableAutoClaim>
       <workflowConditions/>
       <taskSequenceTypes>FUTURE</taskSequenceTypes>

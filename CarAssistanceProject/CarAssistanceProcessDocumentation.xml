@@ -13,7 +13,7 @@
             </topicDocumentation>
             <topicDocumentation name="ACT18592123373518">
                 <labels>
-                    <label locale="en">Call assistance provider</label>
+                    <label locale="en">Call assistance</label>
                 </labels>
                 <descriptions>
                     <description locale="en"></description>
@@ -21,7 +21,7 @@
             </topicDocumentation>
             <topicDocumentation name="ACT18611260487562">
                 <labels>
-                    <label locale="en">Receive information about help</label>
+                    <label locale="en">Receive assistance response</label>
                 </labels>
                 <descriptions>
                     <description locale="en"></description>
@@ -29,7 +29,15 @@
             </topicDocumentation>
             <topicDocumentation name="ACT18611271029869">
                 <labels>
-                    <label locale="en">UserTask</label>
+                    <label locale="en">View assistance response</label>
+                </labels>
+                <descriptions>
+                    <description locale="en"></description>
+                </descriptions>
+            </topicDocumentation>
+            <topicDocumentation name="ACT18611966455126">
+                <labels>
+                    <label locale="en">Car incident happened</label>
                 </labels>
                 <descriptions>
                     <description locale="en"></description>
@@ -54,14 +62,6 @@
             <topicDocumentation name="EVT18611264637417">
                 <labels>
                     <label locale="en">No entitlement</label>
-                </labels>
-                <descriptions>
-                    <description locale="en"></description>
-                </descriptions>
-            </topicDocumentation>
-            <topicDocumentation name="ACT18611966455126">
-                <labels>
-                    <label locale="en">Car incident happened</label>
                 </labels>
                 <descriptions>
                     <description locale="en"></description>

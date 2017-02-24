@@ -12,20 +12,23 @@
             <ns5:name>CarAssistanceProject.Role</ns5:name>
             <ns1:processRole id="Role" name="Role"/>
         </ns1:applicationRole>
-        <ns1:applicationRole id="CarAssistanceProject.Customer" isProcessRole="true">
-            <ns5:name>CarAssistanceProject.Customer</ns5:name>
+        <ns1:applicationRole id="Customer" isProcessRole="true">
+            <ns5:name>Customer</ns5:name>
+            <ns1:member type="USER">
+                <ns1:name>jcooper</ns1:name>
+            </ns1:member>
             <ns1:processRole id="Customer" name="Customer"/>
         </ns1:applicationRole>
-        <ns1:applicationRole id="CarAssistanceProject.Contractor" isProcessRole="true">
-            <ns5:name>CarAssistanceProject.Contractor</ns5:name>
+        <ns1:applicationRole id="Contractor" isProcessRole="true">
+            <ns5:name>Contractor</ns5:name>
             <ns1:processRole id="Contractor" name="Contractor"/>
         </ns1:applicationRole>
-        <ns1:applicationRole id="CarAssistanceProject.MobileHelper" isProcessRole="true">
-            <ns5:name>CarAssistanceProject.MobileHelper</ns5:name>
+        <ns1:applicationRole id="MobileHelper" isProcessRole="true">
+            <ns5:name>MobileHelper</ns5:name>
             <ns1:processRole id="MobileHelper" name="MobileHelper"/>
         </ns1:applicationRole>
-        <ns1:applicationRole id="CarAssistanceProject.Consultant" isProcessRole="true">
-            <ns5:name>CarAssistanceProject.Consultant</ns5:name>
+        <ns1:applicationRole id="Consultant" isProcessRole="true">
+            <ns5:name>Consultant</ns5:name>
             <ns1:processRole id="Consultant" name="Consultant"/>
         </ns1:applicationRole>
     </ns1:applicationRoles>

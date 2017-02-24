@@ -6,8 +6,13 @@
                xmlns:ui="http://xmlns.oracle.com/soa/designer/">
   <service name="IncidentReported.service"
            ui:wsdlLocation="IncidentReported.wsdl">
-    <interface.wsdl interface="http://xmlns.oracle.com/bpmn/bpmnProcess/IncidentReported#wsdl.interface(IncidentReportedPortType)"/>
+    <interface.wsdl interface="http://xmlns.oracle.com/bpmn/bpmnProcess/IncidentReported#wsdl.interface(IncidentReportedPortType)"
+                    callbackInterface="http://xmlns.oracle.com/bpmn/bpmnProcess/IncidentReported#wsdl.interface(IncidentReportedPortTypeCallBack)"/>
     <property name="bpm.generated.service.reference" type="xs:string"
               many="false">IncidentReported.service</property>
   </service>
+  <reference name="Rules.Carassistanceproject.CarAssistanceRules.CarAssistanceRules_DecisionService_1.reference"
+             ui:wsdlLocation="CarAssistanceRules_DecisionService_1.wsdl">
+    <interface.wsdl interface="http://xmlns.oracle.com/CarAssistanceRules/CarAssistanceRules_DecisionService_1#wsdl.interface(IDecisionService)"/>
+  </reference>
 </componentType>

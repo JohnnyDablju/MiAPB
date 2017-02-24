@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<JavaBean xmlns="http://xmlns.oracle.com/adfm/beanmodel" version="11.1.1.64.93"
+          id="CarIncidentHappenedPayloadType"
+          Package="CarIncidentHappenedUI_CarIncidentHappened"
+          BeanClass="CarIncidentHappenedUI_CarIncidentHappened.CarIncidentHappenedPayloadType"
+          isJavaBased="false">
+  <AccessorAttribute id="Incident" IsCollection="true"
+                     BeanClass="CarIncidentHappenedUI_CarIncidentHappened.IncidentType"
+                     CollectionBeanClass="CarIncidentHappenedUI_CarIncidentHappened.IncidentType_Incident_Operations">
+    <Properties>
+      <Property Name="minOccurs" Value="1"/>
+      <Property Name="maxOccurs" Value="1"/>
+      <Property Name="LABEL" Value="Incident"/>
+      <Property Name="nillable" Value="false"/>
+      <Property Name="originalName" Value="Incident"/>
+      <Property Name="targetNamespace"
+                Value="http://xmlns.oracle.com/bpm/bpmobject/BusinessObjects/Incident"/>
+    </Properties>
+  </AccessorAttribute>
+</JavaBean>

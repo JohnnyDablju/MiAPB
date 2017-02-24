@@ -9,11 +9,11 @@
 <xs:schema targetNamespace="http://xmlns.oracle.com/bpm/bpmobject/BusinessObjects/Incident" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema"  xmlns="http://xmlns.oracle.com/bpm/bpmobject/BusinessObjects/Incident"  xmlns:bpmo="http://xmlns.oracle.com/bpm/bpmobject/" >
     <xs:complexType name="IncidentType">
         <xs:sequence>
-            <xs:element name="name" nillable="true" type="xs:string"/>
-            <xs:element name="location" nillable="true" type="xs:string"/>
-            <xs:element name="isSmoke" nillable="true" type="xs:boolean"/>
-            <xs:element name="isCrash" nillable="true" type="xs:boolean"/>
-            <xs:element name="licencePlate" nillable="true" type="xs:string"/>
+            <xs:element name="name" default="" type="xs:string"/>
+            <xs:element name="location" default="" type="xs:string"/>
+            <xs:element name="isSmoke" default="false" type="xs:boolean"/>
+            <xs:element name="isCrash" default="false" type="xs:boolean"/>
+            <xs:element name="licencePlate" default="" type="xs:string"/>
         </xs:sequence>
     </xs:complexType>
     <xs:element name="Incident" type="IncidentType"/>

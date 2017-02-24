@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<decisionServices xmlns="http://xmlns.oracle.com/bpel/rules" name="CarAssistanceRules">
+    <ruleEngineProvider provider="Oracle_11.0.0.0.0" name="OracleRulesSDK">
+        <repository type="SCA-Archive">
+            <path>CarAssistanceProject/oracle/rules/carassistanceproject/CarAssistanceRules.rules</path>
+        </repository>
+    </ruleEngineProvider>
+    <decisionService name="CarAssistanceRules_DecisionService_1" ruleEngineProviderReference="OracleRulesSDK" targetNamespace="http://xmlns.oracle.com/CarAssistanceRules/CarAssistanceRules_DecisionService_1">
+        <catalog>CarAssistanceRules</catalog>
+        <pattern name="CallFunctionStateless">
+            <arguments>
+                <call>carassistanceproject.CarAssistanceRules.CarAssistanceRules_DecisionService_1</call>
+            </arguments>
+        </pattern>
+        <pattern name="CallFunctionStateful">
+            <arguments>
+                <call>carassistanceproject.CarAssistanceRules.CarAssistanceRules_DecisionService_1</call>
+            </arguments>
+        </pattern>
+    </decisionService>
+</decisionServices>

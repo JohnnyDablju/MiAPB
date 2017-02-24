@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<JavaBean xmlns="http://xmlns.oracle.com/adfm/beanmodel" version="11.1.1.64.93"
+          id="ViewAssistanceResponsePayloadType"
+          Package="ViewAssistanceResponseUI_ViewAssistanceResponse"
+          BeanClass="ViewAssistanceResponseUI_ViewAssistanceResponse.ViewAssistanceResponsePayloadType"
+          isJavaBased="false">
+  <AccessorAttribute id="AssistancePromise" IsCollection="true"
+                     BeanClass="ViewAssistanceResponseUI_ViewAssistanceResponse.AssistancePromiseType"
+                     CollectionBeanClass="ViewAssistanceResponseUI_ViewAssistanceResponse.AssistancePromiseType_AssistancePromise_Operations">
+    <Properties>
+      <Property Name="minOccurs" Value="1"/>
+      <Property Name="maxOccurs" Value="1"/>
+      <Property Name="LABEL" Value="Assistance Promise"/>
+      <Property Name="nillable" Value="false"/>
+      <Property Name="originalName" Value="AssistancePromise"/>
+      <Property Name="targetNamespace"
+                Value="http://xmlns.oracle.com/bpm/bpmobject/BusinessObjects/AssistancePromise"/>
+    </Properties>
+  </AccessorAttribute>
+</JavaBean>
